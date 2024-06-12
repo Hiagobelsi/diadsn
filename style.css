@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+body {
+   background-image: linear-gradient(to bottom, #D91ACC, #F294D9 );
+   
+}
+
+header {
+    background-image: linear-gradient(45deg, #8C1F6F, #F250D7, #F285E0);
+    height: 80px;
+    box-shadow: 3px 3px 5px black;
+    flex-flow: row wrap;
+   
+    
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.botao {
+    flex: 40%; 
+   /* border: 1px solid black;*/
+    text-align: right;
+    margin-top: 20px;
+   
+   
+}
+
+a {
+    
+    margin-right: 20px;
+    text-decoration: none;
+    
+    background-color:black;
+    padding: 8px 10px;
+    border-radius: 15px;
+    color: #F250D7;
+    
+   
+}
+
+.foto {
+    flex: 60%;
+    /*border: 1px solid black;*/
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-right: 50px;
+    
+}
+
+h1 {
+    font-size: 32px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #482E59;
+    
+}
+
+.tex {
+    
+    margin: 30px 15px 20px 15px;
+    border: 5px solid blanchedalmond;
+    border-radius: 25px;
+    padding: 20px;
+    color: aliceblue;
+    box-shadow: 7px 7px 10px black;
+    background-image: url(R.jfif);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+
+}
+
+.tex h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 20px;
+    text-align: justify;
+    text-indent: 25px;
+    padding-bottom: 10px;
+}
+
+footer {
+    height: 110px;
+    background-image: linear-gradient(to bottom, #D91ACC, black);
+    border-top: 4px solid #690a63;
+    color: aliceblue;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    
+}
+
+.as {
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: -10px;
+}
